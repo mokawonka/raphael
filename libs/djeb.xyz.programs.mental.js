@@ -106,11 +106,11 @@ $(document).ready(function () {
         var r = 0; var g = 0; var b = 0;
 
         if ($(buts[i]).parents()[0].id.search("pc") >= 0) {
-            r = 55; g = 55; b = 55;
+            r = 172; g = 203; b = 255;
         }
 
         if ($(buts[i]).parents()[0].id.search("scenario") >= 0) {
-            r = 150; g = 150; b = 150;
+            r = 110; g = 150; b = 250;
         }
         buts[i].style.backgroundColor = "rgb(" + r + ", " + g + ", " + b + ")";
     }
